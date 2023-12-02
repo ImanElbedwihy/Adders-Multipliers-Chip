@@ -51,46 +51,111 @@ R6
 R7
 R8
 vCLA_adder
-!s110 1701520842
+Z9 !s110 1701527404
 !i10b 1
 !s100 RHf<d?MUNF>_^[X5z8OQV3
-IfQTb84hQg=J64^ZT;a6d80
+IWV3m@oI=XYMNL_AhUogLC0
 R0
-R1
-w1701519839
-R2
-R3
+Z10 dC:/intelFPGA/18.1/VLSI_project
+w1701527400
+8C:\intelFPGA\18.1\VLSI_project\look_ahead.v
+FC:\intelFPGA\18.1\VLSI_project\look_ahead.v
 L0 2
 R4
 r1
 !s85 0
 31
-!s108 1701520842.000000
-R5
-R6
+Z11 !s108 1701527404.000000
+!s107 C:\intelFPGA\18.1\VLSI_project\look_ahead.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA\18.1\VLSI_project\look_ahead.v|
 !i113 1
 R7
 R8
 n@c@l@a_adder
 vCLA_testbench
-!s110 1701521052
+R9
 !i10b 1
-!s100 _9_mA`gnZSnmoM`Dh6H>?2
-IK;OTUacEleTlQTD0Rm`H33
+!s100 E:EhWc55WlGS2XOCnX1A:2
+IJo0T_D:YZSUf>HmmlW2m]0
 R0
-R1
-w1701521049
-8C:\Users\sggln\OneDrive\Desktop\Adders\CLA_testbench.v
-FC:\Users\sggln\OneDrive\Desktop\Adders\CLA_testbench.v
+R10
+w1701527368
+8C:\intelFPGA\18.1\VLSI_project\CLA_testbench.v
+FC:\intelFPGA\18.1\VLSI_project\CLA_testbench.v
+L0 3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:\intelFPGA\18.1\VLSI_project\CLA_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA\18.1\VLSI_project\CLA_testbench.v|
+!i113 1
+R7
+R8
+n@c@l@a_testbench
+vfull_adder
+R9
+!i10b 1
+!s100 j93[VUL[QF4aY[zC4I`J^3
+I4<<YNjM6T;dRD1MN4470W1
+R0
+R10
+w1701527334
+8C:\intelFPGA\18.1\VLSI_project\full_adder.v
+FC:\intelFPGA\18.1\VLSI_project\full_adder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:\intelFPGA\18.1\VLSI_project\full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA\18.1\VLSI_project\full_adder.v|
+!i113 1
+R7
+R8
+vRCA
+R9
+!i10b 1
+!s100 7P`Ac]P_]F1W;m7ViBlMX2
+I?0IR5h^;F3S;>2cz4iLBY2
+R0
+R10
+w1701527238
+8C:\intelFPGA\18.1\VLSI_project\RCA.v
+FC:\intelFPGA\18.1\VLSI_project\RCA.v
 L0 2
 R4
 r1
 !s85 0
 31
-!s108 1701521052.000000
-!s107 C:\Users\sggln\OneDrive\Desktop\Adders\CLA_testbench.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\sggln\OneDrive\Desktop\Adders\CLA_testbench.v|
+R11
+!s107 C:\intelFPGA\18.1\VLSI_project\RCA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA\18.1\VLSI_project\RCA.v|
 !i113 1
 R7
 R8
-n@c@l@a_testbench
+n@r@c@a
+vRCA_tb
+R9
+!i10b 1
+!s100 SgLE2ABN3X?nkid]=XIbR2
+ImKMX23XeJM>fFIH5Yg1fY3
+R0
+R10
+w1701527298
+8C:\intelFPGA\18.1\VLSI_project\RCA_tb.v
+FC:\intelFPGA\18.1\VLSI_project\RCA_tb.v
+L0 3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:\intelFPGA\18.1\VLSI_project\RCA_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA\18.1\VLSI_project\RCA_tb.v|
+!i113 1
+R7
+R8
+n@r@c@a_tb

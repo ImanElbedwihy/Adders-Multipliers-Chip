@@ -1,6 +1,6 @@
 
 
-module CLA_testbench();
+module RCA_tb();
 
     reg [31:0] a;
     reg [31:0] b;
@@ -8,7 +8,7 @@ module CLA_testbench();
     wire [31:0] sum;
     wire Cout;
     wire of;
-    CLA_adder cl (a, b, Cin, sum, Cout,of);
+    RCA rc (a, b, Cin, sum, Cout,of);
 initial begin
 //1)+ve + +ve with over flow
 a= 32'h7fffffff;
