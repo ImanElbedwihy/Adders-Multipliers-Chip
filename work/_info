@@ -51,7 +51,7 @@ R6
 R7
 R8
 vCLA_adder
-Z9 !s110 1701542880
+Z9 !s110 1701544554
 !i10b 1
 !s100 RHf<d?MUNF>_^[X5z8OQV3
 I6bCC4oi]]TF84d75;iGN;3
@@ -65,7 +65,7 @@ R4
 r1
 !s85 0
 31
-Z12 !s108 1701542880.000000
+Z12 !s108 1701544554.000000
 !s107 C:/Users/sggln/OneDrive/Desktop/adders/look_ahead.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sggln/OneDrive/Desktop/adders/look_ahead.v|
 !i113 1
@@ -73,13 +73,13 @@ R7
 R8
 n@c@l@a_adder
 vCLA_testbench
-R9
+Z13 !s110 1701544553
 !i10b 1
 !s100 E:EhWc55WlGS2XOCnX1A:2
 I@[j1<B[c^4;m]5HMBa]Lf0
 R0
 R10
-R11
+w1701543571
 8C:/Users/sggln/OneDrive/Desktop/adders/CLA_testbench.v
 FC:/Users/sggln/OneDrive/Desktop/adders/CLA_testbench.v
 L0 3
@@ -87,7 +87,7 @@ R4
 r1
 !s85 0
 31
-R12
+Z14 !s108 1701544553.000000
 !s107 C:/Users/sggln/OneDrive/Desktop/adders/CLA_testbench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sggln/OneDrive/Desktop/adders/CLA_testbench.v|
 !i113 1
@@ -109,20 +109,20 @@ R4
 r1
 !s85 0
 31
-R12
+R14
 !s107 C:/Users/sggln/OneDrive/Desktop/adders/full_adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sggln/OneDrive/Desktop/adders/full_adder.v|
 !i113 1
 R7
 R8
 vRCA
-!s110 1701542881
+R9
 !i10b 1
-!s100 7P`Ac]P_]F1W;m7ViBlMX2
-IX8UCDQU86DS8S?T?a6hRE2
+!s100 D9njzXbFeJneV9an^1BmM0
+IJ2mYK2TYRa2g5ElP:25zW0
 R0
 R10
-R11
+w1701542944
 8C:/Users/sggln/OneDrive/Desktop/adders/RCA.v
 FC:/Users/sggln/OneDrive/Desktop/adders/RCA.v
 L0 2
@@ -138,7 +138,7 @@ R7
 R8
 n@r@c@a
 vRCA_tb
-R9
+R13
 !i10b 1
 !s100 SgLE2ABN3X?nkid]=XIbR2
 IE3?X8egG5L:cWKDHfCaVg2
@@ -152,10 +152,53 @@ R4
 r1
 !s85 0
 31
-R12
+R14
 !s107 C:/Users/sggln/OneDrive/Desktop/adders/RCA_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sggln/OneDrive/Desktop/adders/RCA_tb.v|
 !i113 1
 R7
 R8
 n@r@c@a_tb
+vVerilog_adder
+R9
+!i10b 1
+!s100 gRHK^8DDAlW8GWH:b<zGP3
+I]KYV0c16jPYnD?5P;E]ME3
+R0
+R10
+w1701543811
+8C:\Users\sggln\OneDrive\Desktop\adders\verliog_adder.v
+FC:\Users\sggln\OneDrive\Desktop\adders\verliog_adder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:\Users\sggln\OneDrive\Desktop\adders\verliog_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\sggln\OneDrive\Desktop\adders\verliog_adder.v|
+!i113 1
+R7
+R8
+n@verilog_adder
+vverliog_adder_testbench
+!s110 1701544555
+!i10b 1
+!s100 XDhXnc2@MBR_CXIPhC42i0
+IkcL8WBI7`z[MJZao]aGEf1
+R0
+R10
+w1701543630
+8C:/Users/sggln/OneDrive/Desktop/adders/verliog_adder_testbench.v
+FC:/Users/sggln/OneDrive/Desktop/adders/verliog_adder_testbench.v
+L0 3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/sggln/OneDrive/Desktop/adders/verliog_adder_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sggln/OneDrive/Desktop/adders/verliog_adder_testbench.v|
+!i113 1
+R7
+R8
