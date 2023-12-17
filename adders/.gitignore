@@ -1,0 +1,10 @@
+# Ignore files with .mpf extension
+*.mpf
+
+# Ignore files with .mti extension
+*.mti
+*.wlf
+# Ignore the 'work' folder
+/work/
+adders.cr.mti
+adders.cr.mti
