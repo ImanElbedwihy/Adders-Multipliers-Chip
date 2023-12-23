@@ -1,74 +1,460 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/Users/sggln/OneDrive/Desktop/VLSI_project/adders
+dC:/Users/LAPTOP/Desktop/lab_exam_arch
+vBooth_final
+!s110 1703338173
+!i10b 1
+!s100 [DBhXda26gAbF6TO<lXmN1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IKi>AO36gW1RnE`FoH0Gik3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/VLSI_project2/VLSI_project/multipliers
+w1703338168
+Z3 8D:/VLSI_project2/VLSI_project/multipliers/sequential_final.v
+Z4 FD:/VLSI_project2/VLSI_project/multipliers/sequential_final.v
+!i122 189
+Z5 L0 3 18
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1703338173.000000
+!s107 D:/VLSI_project2/VLSI_project/multipliers/sequential_final.v|
+Z7 !s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/sequential_final.v|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+n@booth_final
+vBooth_multiplier
+!s110 1703337373
+!i10b 1
+!s100 a_D;khB6kD67XfgW^BzYf3
+R0
+INIkVi1dbP4kXod4GM^1A@1
+R1
+R2
+w1703336549
+Z10 8D:\VLSI_project2\VLSI_project\multipliers\Booth_multiplier.v
+Z11 FD:\VLSI_project2\VLSI_project\multipliers\Booth_multiplier.v
+!i122 186
+L0 3 101
+R6
+r1
+!s85 0
+31
+!s108 1703337373.000000
+Z12 !s107 D:\VLSI_project2\VLSI_project\multipliers\Booth_multiplier.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|D:\VLSI_project2\VLSI_project\multipliers\Booth_multiplier.v|
+!i113 1
+R8
+R9
+n@booth_multiplier
+vBooth_multiplier_tb
+!s110 1703277218
+!i10b 1
+!s100 T3E;2b2zg12nTL^A];TWb0
+R0
+IWW9K80Y5e9n;R`gc7=jJ02
+R1
+R2
+w1703277184
+Z14 8D:/VLSI_project2/VLSI_project/multipliers/Booth_multiplier_th.v
+Z15 FD:/VLSI_project2/VLSI_project/multipliers/Booth_multiplier_th.v
+!i122 120
+L0 5 121
+R6
+r1
+!s85 0
+31
+!s108 1703277218.000000
+Z16 !s107 D:/VLSI_project2/VLSI_project/multipliers/Booth_multiplier_th.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/Booth_multiplier_th.v|
+!i113 1
+R8
+R9
+n@booth_multiplier_tb
+vCSA
+Z18 !s110 1702826298
+!i10b 1
+!s100 PRSRmQf3WA`N_e0l<SQLK3
+R0
+IbPzkF;VACBVkH[;T0zEP]2
+R1
+R2
+Z19 w1702826066
+8D:/VLSI_project2/VLSI_project/multipliers/CSA.v
+FD:/VLSI_project2/VLSI_project/multipliers/CSA.v
+!i122 0
+L0 1 42
+R6
+r1
+!s85 0
+31
+Z20 !s108 1702826298.000000
+!s107 D:/VLSI_project2/VLSI_project/multipliers/CSA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/CSA.v|
+!i113 1
+R8
+R9
+n@c@s@a
+vfour_bit_adder
+R18
+!i10b 1
+!s100 UoPie>SVFO[I4Ij=I6N^P1
+R0
+I:Dn^8UETWPnU2UQ=>;D7R3
+R1
+R2
+R19
+8D:/VLSI_project2/VLSI_project/multipliers/four_bit_adder.v
+FD:/VLSI_project2/VLSI_project/multipliers/four_bit_adder.v
+!i122 1
+L0 1 16
+R6
+r1
+!s85 0
+31
+R20
+!s107 D:/VLSI_project2/VLSI_project/multipliers/four_bit_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/four_bit_adder.v|
+!i113 1
+R8
+R9
+vFPA_tb
+!s110 1702835744
+!i10b 1
+!s100 C2<Y@jGjeE`ESXB3dnmJ=3
+R0
+I<3j]Bi_mTSAM4fjcd5hBf2
+R1
+R2
+w1702835734
+8D:/VLSI_project2/VLSI_project/multipliers/simple_multiplier _tb.v
+FD:/VLSI_project2/VLSI_project/multipliers/simple_multiplier _tb.v
+!i122 25
+L0 4 112
+R6
+r1
+!s85 0
+31
+!s108 1702835744.000000
+!s107 D:/VLSI_project2/VLSI_project/multipliers/simple_multiplier _tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/simple_multiplier _tb.v|
+!i113 1
+R8
+R9
+n@f@p@a_tb
+vFPM
+!s110 1703277215
+!i10b 1
+!s100 ><Ib6[YV1nWTRT_0QAcoN1
+R0
+IYN^dT]8Sddi1CWoX]am>X0
+R1
+R2
+w1702837360
+8D:/VLSI_project2/VLSI_project/multipliers/FPM.v
+FD:/VLSI_project2/VLSI_project/multipliers/FPM.v
+!i122 119
+L0 2 82
+R6
+r1
+!s85 0
+31
+!s108 1703277215.000000
+!s107 D:/VLSI_project2/VLSI_project/multipliers/FPM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/FPM.v|
+!i113 1
+R8
+R9
+n@f@p@m
 vfull_adder
-!s110 1702819622
+Z21 !s110 1702826299
 !i10b 1
-!s100 j93[VUL[QF4aY[zC4I`J^3
-IVlo;MD0b;Q=[D0h:iCQ`F2
-Z0 VDg1SIo80bB@j0V0VzS_@n1
-Z1 dC:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers
-w1701542737
-8C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/full_adder.v
-FC:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/full_adder.v
-L0 1
-Z2 OV;L;10.5b;63
+!s100 8zaC:lmLbT9c8VT09M6bh2
+R0
+ITGi[gU<PMNc1amBhmZl?U0
+R1
+R2
+R19
+8D:/VLSI_project2/VLSI_project/multipliers/full_adder.v
+FD:/VLSI_project2/VLSI_project/multipliers/full_adder.v
+!i122 2
+Z22 L0 1 11
+R6
 r1
 !s85 0
 31
-!s108 1702819622.000000
-!s107 C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/full_adder.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/full_adder.v|
+Z23 !s108 1702826299.000000
+!s107 D:/VLSI_project2/VLSI_project/multipliers/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/full_adder.v|
 !i113 1
-Z3 o-work work
-Z4 tCvgOpt 0
+R8
+R9
 vhalf_adder
-!s110 1702819623
+R21
 !i10b 1
-!s100 ca7SIGlD_d1h=7lOdi5NT2
-IBT4Yb_ZnaAih1TI<mAzEd1
+!s100 YkB<MK^miNZ71_8AdJ4V80
 R0
+I5TCMdkNalZ9a0eRoQFblR0
 R1
-w1702817386
-8C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/half_adder.v
-FC:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/half_adder.v
-L0 1
 R2
+R19
+8D:/VLSI_project2/VLSI_project/multipliers/half_adder.v
+FD:/VLSI_project2/VLSI_project/multipliers/half_adder.v
+!i122 3
+R22
+R6
 r1
 !s85 0
 31
-!s108 1702819623.000000
-!s107 C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/half_adder.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/half_adder.v|
+R23
+!s107 D:/VLSI_project2/VLSI_project/multipliers/half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/half_adder.v|
 !i113 1
+R8
+R9
+vnormalizer
+!s110 1702832420
+!i10b 1
+!s100 `jo`lMKA1]eNR2NdHRBl[2
+R0
+I5jX99BRkVPWn;FL0^FcR83
+R1
+R2
+R19
+8D:/VLSI_project2/VLSI_project/multipliers/normalizer.v
+FD:/VLSI_project2/VLSI_project/multipliers/normalizer.v
+!i122 14
+L0 1 135
+R6
+r1
+!s85 0
+31
+!s108 1702832420.000000
+!s107 D:/VLSI_project2/VLSI_project/multipliers/normalizer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/normalizer.v|
+!i113 1
+R8
+R9
+vOriginalBooth
+!s110 1703331701
+!i10b 1
+!s100 AThbXI7MPfDAgDZ?^kO8?2
+R0
+I1ZH=hk@mhz=H[:AfS`NVV2
+R1
+R2
+w1703331695
+R10
+R11
+!i122 174
+L0 2 47
+R6
+r1
+!s85 0
+31
+!s108 1703331701.000000
+R12
+R13
+!i113 1
+R8
+R9
+n@original@booth
+vRCA
+!s110 1703322280
+!i10b 1
+!s100 nWKBBK^jmPeZfH@E3b0[12
+R0
+Ia3EbQ8l]47>7iUk52Y>Gf2
+R1
+R2
+R19
+8D:/VLSI_project2/VLSI_project/multipliers/RCA.v
+FD:/VLSI_project2/VLSI_project/multipliers/RCA.v
+!i122 143
+L0 2 17
+R6
+r1
+!s85 0
+31
+!s108 1703322279.000000
+!s107 D:/VLSI_project2/VLSI_project/multipliers/RCA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/RCA.v|
+!i113 1
+R8
+R9
+n@r@c@a
+vRegisters
+!s110 1703323706
+!i10b 1
+!s100 @nm=4P:A>W?A]zYFIUZ@z1
+R0
+I5SE6?DGN?4?h[<R0ZJSE32
+R1
+R2
+w1703323421
+8D:/VLSI_project2/VLSI_project/multipliers/registers.v
+FD:/VLSI_project2/VLSI_project/multipliers/registers.v
+!i122 145
+L0 1 20
+R6
+r1
+!s85 0
+31
+!s108 1703323706.000000
+!s107 D:/VLSI_project2/VLSI_project/multipliers/registers.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/registers.v|
+!i113 1
+R8
+R9
+n@registers
+vRegisters_2
+!s110 1703323707
+!i10b 1
+!s100 <3QmN47Y:kAlWz8C5QMoN1
+R0
+IU@>j:M2Vf`2X6m2XCDcR:0
+R1
+R2
+w1703323471
+8D:/VLSI_project2/VLSI_project/multipliers/registers_2.v
+FD:/VLSI_project2/VLSI_project/multipliers/registers_2.v
+!i122 147
+L0 2 20
+R6
+r1
+!s85 0
+31
+!s108 1703323707.000000
+!s107 D:/VLSI_project2/VLSI_project/multipliers/registers_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/registers_2.v|
+!i113 1
+R8
+R9
+n@registers_2
+vSequential_final
+!s110 1703338283
+!i10b 1
+!s100 Zdld`HUck]PB?Q<]IU11z3
+R0
+IKa<0OUfAjY80F6G?j2i?O3
+R1
+R2
+w1703338279
 R3
 R4
+!i122 190
+R5
+R6
+r1
+!s85 0
+31
+!s108 1703338283.000000
+Z24 !s107 D:/VLSI_project2/VLSI_project/multipliers/sequential_final.v|
+R7
+!i113 1
+R8
+R9
+n@sequential_final
+vsequential_multipier
+!s110 1703338116
+!i10b 1
+!s100 W3<?;;1hCo]f1=7da>Mzm2
+R0
+IlUBRW[izJQ7BHOhXl74Kc1
+R1
+R2
+w1703337412
+8D:/VLSI_project2/VLSI_project/multipliers/sequential_multiplter.v
+FD:/VLSI_project2/VLSI_project/multipliers/sequential_multiplter.v
+!i122 188
+L0 1 59
+R6
+r1
+!s85 0
+31
+!s108 1703338116.000000
+!s107 D:/VLSI_project2/VLSI_project/multipliers/sequential_multiplter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/sequential_multiplter.v|
+!i113 1
+R8
+R9
+vsimple_multiplier
+!s110 1703314627
+!i10b 1
+!s100 g=KVDPKcOXzNMa]H0QO?z0
+R0
+I7V5Y@P:9BLA<XHlom0W1Y0
+R1
+R2
+w1703314623
+8D:/VLSI_project2/VLSI_project/multipliers/simle_multiplier .v
+FD:/VLSI_project2/VLSI_project/multipliers/simle_multiplier .v
+!i122 131
+L0 3 23
+R6
+r1
+!s85 0
+31
+!s108 1703314627.000000
+!s107 D:/VLSI_project2/VLSI_project/multipliers/simle_multiplier .v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/simle_multiplier .v|
+!i113 1
+R8
+R9
+vsimple_multiplier_tb
+!s110 1702917722
+!i10b 1
+!s100 AN6Y?T[6kRU@nXe20GDPR0
+R0
+IA`eIzP0fPKT?:fmiN35?j1
+R1
+R2
+w1702917668
+R14
+R15
+!i122 70
+L0 5 112
+R6
+r1
+!s85 0
+31
+!s108 1702917722.000000
+R16
+R17
+!i113 1
+R8
+R9
 vWTM8
-!s110 1702825565
+!s110 1702832431
 !i10b 1
-!s100 bJKXXnZVf1;O4jNQ=3e8g3
-ISh7cecK^^ZD4OkHVgoDV43
+!s100 eE3dcmfUR4LFFif_;ggn=0
 R0
+I95QWzG1L@_m=i9jBdjX[<1
 R1
-w1702825506
-8C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/WTM8.v
-FC:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/WTM8.v
-L0 1
 R2
+w1702827030
+8D:/VLSI_project2/VLSI_project/multipliers/WTM8.v
+FD:/VLSI_project2/VLSI_project/multipliers/WTM8.v
+!i122 15
+L0 1 171
+R6
 r1
 !s85 0
 31
-!s108 1702825565.000000
-!s107 C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/WTM8.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/WTM8.v|
+!s108 1702832431.000000
+!s107 D:/VLSI_project2/VLSI_project/multipliers/WTM8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI_project2/VLSI_project/multipliers/WTM8.v|
 !i113 1
-R3
-R4
+R8
+R9
 n@w@t@m8
