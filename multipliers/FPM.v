@@ -73,10 +73,12 @@ wire [22:0] final_mantissa ;
 reg [47:0] temp_product ;
 
 
+
 wire [48:0]temp_result;
 
  
 multiplier s1(A_mantissa,B_mantissa ,temp_result);
+
 
 always @ (*)
 begin
@@ -90,13 +92,16 @@ begin
 
     // out sign
     O_sign=A_sign ^ B_sign;
-    
+
     //out exponent
     O_temp1_exponent=A_exponent + B_exponent - 8'd127;
     ///mantissa
     
+
    // temp_product=A_mantissa * B_mantissa;
    temp_product= temp_result[47:0];
+
+
     if(temp_product[47]==1'b1)
     begin
 
@@ -126,6 +131,7 @@ end
 
     normalizer N_instance( O_temp_mantissa, O_temp1_exponent, final_mantissa , final_exponent);
    assign product ={O_sign,final_exponent,final_mantissa};
+
 
 
 

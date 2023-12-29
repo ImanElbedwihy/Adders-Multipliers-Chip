@@ -1,0 +1,120 @@
+D:/VLSI_project2/VLSI_project/multipliers/RCA.v {1 {vlog -work work -stats=none D:/VLSI_project2/VLSI_project/multipliers/RCA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RCA
+
+Top level modules:
+	RCA
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/CSA.v {1 {vlog -work work -stats=none D:/VLSI_project2/VLSI_project/multipliers/CSA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CSA
+
+Top level modules:
+	CSA
+
+} {} {}} {D:/VLSI_project2/VLSI_project/multipliers/simle_multiplier .v} {1 {vlog -work work -stats=none {D:/VLSI_project2/VLSI_project/multipliers/simle_multiplier .v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module simple_multiplier
+
+Top level modules:
+	simple_multiplier
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/FPM_tb.v {1 {vlog -work work -stats=none {D:\VLSI_project2\VLSI_project\multipliers\FPM_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FPA_tb
+
+Top level modules:
+	FPA_tb
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/WTM8.v {1 {vlog -work work -stats=none D:/VLSI_project2/VLSI_project/multipliers/WTM8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module WTM8
+
+Top level modules:
+	WTM8
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/registers_2.v {1 {vlog -work work -stats=none D:/VLSI_project2/VLSI_project/multipliers/registers_2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Registers_2
+
+Top level modules:
+	Registers_2
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/four_bit_adder.v {1 {vlog -work work -stats=none D:/VLSI_project2/VLSI_project/multipliers/four_bit_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module four_bit_adder
+
+Top level modules:
+	four_bit_adder
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/Booth_multiplier.v {1 {vlog -work work -stats=none {D:\VLSI_project2\VLSI_project\multipliers\Booth_multiplier.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Booth_multiplier
+
+Top level modules:
+	Booth_multiplier
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/full_adder.v {1 {vlog -work work -stats=none D:/VLSI_project2/VLSI_project/multipliers/full_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/FPM.v {1 {vlog -work work -stats=none D:/VLSI_project2/VLSI_project/multipliers/FPM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FPM
+
+Top level modules:
+	FPM
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/Booth_final.v {1 {vlog -work work -stats=none D:/VLSI_project2/VLSI_project/multipliers/Booth_final.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Booth_final
+
+Top level modules:
+	Booth_final
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/registers.v {1 {vlog -work work -stats=none D:/VLSI_project2/VLSI_project/multipliers/registers.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Registers
+
+Top level modules:
+	Registers
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/half_adder.v {1 {vlog -work work -stats=none D:/VLSI_project2/VLSI_project/multipliers/half_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/normalizer.v {1 {vlog -work work -stats=none D:/VLSI_project2/VLSI_project/multipliers/normalizer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module normalizer
+
+Top level modules:
+	normalizer
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/sequential_multiplter.v {1 {vlog -work work -stats=none D:/VLSI_project2/VLSI_project/multipliers/sequential_multiplter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sequential_multipier
+
+Top level modules:
+	sequential_multipier
+
+} {} {}} D:/VLSI_project2/VLSI_project/multipliers/Booth_multiplier_th.v {1 {vlog -work work -stats=none D:/VLSI_project2/VLSI_project/multipliers/Booth_multiplier_th.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Booth_multiplier_tb
+
+Top level modules:
+	Booth_multiplier_tb
+
+} {} {}} {D:/VLSI_project2/VLSI_project/multipliers/simple_multiplier _tb.v} {1 {vlog -work work -stats=none {D:/VLSI_project2/VLSI_project/multipliers/simple_multiplier _tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module simple_multiplier_tb
+
+Top level modules:
+	simple_multiplier_tb
+
+} {} {}}

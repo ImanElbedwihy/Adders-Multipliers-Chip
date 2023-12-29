@@ -13,11 +13,13 @@ wire [31:0]B;
 wire [63:0]product;
 
 
+
 Registers  operand1_reg (clk,rst,in1,A); 
 Registers  operand2_reg (clk,rst,in2,B); 
 
 Booth_multiplier B1  (A,B,product);
     
 Registers_2  output_reg (clk,rst,product,out); 
+
 
 endmodule

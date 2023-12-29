@@ -1,11 +1,11 @@
 module Booth_multiplier  (
     input [31:0] A,
     input [31:0] B,
-    output [63:0] product
-    );
-    
+    output [63:0] product);
+
 reg [31:0]op1;
 reg [31:0]op2;
+
 reg [31:0]temp1_product;
 reg [1:0]condition;
 reg temp;

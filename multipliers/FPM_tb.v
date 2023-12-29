@@ -5,6 +5,7 @@ module FPM_tb();
     reg [31:0] a;
     reg [31:0] b;
     wire [31:0] p;
+
   
        reg clk,rst;
     FPM_final f1 (clk,rst,a, b, p);
@@ -22,6 +23,7 @@ b= 32'b01000001011101000000000000000000;
 #(2*clock_period)
 if(p==32'b01000010101001111100000000000000 )begin
 correct=correct+1;
+
 
 $display("Test case#1 PASSED\n");
 end else begin
@@ -43,6 +45,7 @@ end else begin
 $display ("Test case#2 FAILED\\n");
 $display("A = -6.25 / B = -20.75 / p = 129.6875 ");
 incorrect=incorrect+1;
+
 
 end
 /////////////////////////////////////////////////////////////////////////
