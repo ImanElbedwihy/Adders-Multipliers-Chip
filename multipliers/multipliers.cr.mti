@@ -1,9 +1,86 @@
-C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/half_adder.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/half_adder.v
+C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/simple_multiplier_tb.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/simple_multiplier_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module half_adder
+-- Compiling module simple_multiplier_tb
 
 Top level modules:
-	half_adder
+	simple_multiplier_tb
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/Booth_final.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/Booth_final.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Booth_final
+
+Top level modules:
+	Booth_final
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/WTM32.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/WTM32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module WTM32
+
+Top level modules:
+	WTM32
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/register.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Registers
+
+Top level modules:
+	Registers
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/sequential_multiplier_tb.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/sequential_multiplier_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sequential_multipier_tb
+
+Top level modules:
+	sequential_multipier_tb
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/WTM32_final.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/WTM32_final.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module WTM32_final
+
+Top level modules:
+	WTM32_final
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/Booth_multiplier_tb.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/Booth_multiplier_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Booth_multiplier_tb
+
+Top level modules:
+	Booth_multiplier_tb
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/register2.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/register2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Registers_2
+
+Top level modules:
+	Registers_2
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/FPM_tb.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/FPM_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FPM_tb
+
+Top level modules:
+	FPM_tb
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/WTM8.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/WTM8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module WTM8
+
+Top level modules:
+	WTM8
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/simple_multiplier.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/simple_multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module simple_multiplier
+
+Top level modules:
+	simple_multiplier
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/simple_multiplier_final.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/simple_multiplier_final.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module simple_multiplier_final
+
+Top level modules:
+	simple_multiplier_final
 
 } {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/full_adder.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/full_adder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -12,11 +89,68 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	full_adder
 
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/Booth_multiplier.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/Booth_multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Booth_multiplier
+
+Top level modules:
+	Booth_multiplier
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/normilzer.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/normilzer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module normalizer
+
+Top level modules:
+	normalizer
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/sequential_multiplter.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/sequential_multiplter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sequential_multipier
+
+Top level modules:
+	sequential_multipier
+
 } {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/adders/RCA.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/adders/RCA.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module RCA
 
 Top level modules:
 	RCA
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/half_adder.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/half_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/FPM.v {1 {vlog -work work -stats=none {C:\Users\sggln\OneDrive\Desktop\VLSI_project\multipliers\FPM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiplier
+-- Compiling module FPM
+
+Top level modules:
+	FPM
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/wallce_tree_tb.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/wallce_tree_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wallce_tree_tb
+
+Top level modules:
+	wallce_tree_tb
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/sequential_final.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/sequential_final.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sequential_final
+
+Top level modules:
+	sequential_final
+
+} {} {}} C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/FPM_final.v {1 {vlog -work work -stats=none C:/Users/sggln/OneDrive/Desktop/VLSI_project/multipliers/FPM_final.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FPM_final
+
+Top level modules:
+	FPM_final
 
 } {} {}}

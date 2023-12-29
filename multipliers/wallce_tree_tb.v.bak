@@ -1,0 +1,19 @@
+`timescale 1ns /1ns
+module wallce_tree_tb();
+
+    reg [31:0] a;
+    reg [31:0] b;
+    wire [63:0] p;
+    wire Cout;
+    wire of;
+wire [31:0]test[7:0];
+    WTM32_final s1 ( clk,rst,a, b, p);
+always 
+begin
+clk= 1; #1; clk= 0; #1; // 10ns period
+end
+
+
+$stop;
+end
+endmodule

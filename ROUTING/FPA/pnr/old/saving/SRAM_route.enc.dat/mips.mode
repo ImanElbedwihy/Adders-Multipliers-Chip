@@ -1,0 +1,16 @@
+setAnalysisMode -checkType setup -clkSrcPath true -clockPropagation sdcControl -skew true -virtualIPO false
+setTrialRouteMode -handlePreroute true -keepMarkedOptRoutes true
+setOptMode -congOpt false -drcMargin 0 -effort high -fixDrc true -route noIncr -setupTargetSlack 0
+setExtractRCMode  -engine detail -coupled false -force true -viaCap true
+setDelayCalMode -engine default
+setCTSMode -moveGate true -opt true -optArea true -optLatency true -routeBottomPreferredLayer 1 -routeClkNet true -routeTopPreferredLayer 4
+setNanoRouteMode -quiet -drouteAntennaFactor 1.000000
+setNanoRouteMode -quiet -drouteStartIteration 0
+setNanoRouteMode -quiet -envNumberWarningLimit 20
+setNanoRouteMode -quiet -routeExpSignatureEco false
+setNanoRouteMode -quiet -routeSiEffort "high"
+setNanoRouteMode -quiet -routeTdrEffort 8
+setNanoRouteMode -quiet -routeTdrPreferLayerPercentage 0.000000
+
+setPlaceMode -clkGateAware true -congEffort medium -ignoreScan true -timingDriven true
+setImportMode -config true -keepEmptyModule true -treatUndefinedCellAsBbox false -useLefDef56 true

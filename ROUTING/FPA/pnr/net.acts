@@ -1,0 +1,7 @@
+clk
+clk_BC
+clk_BC_1
+CTS_clk_CTO_delay41
+output_reg/clk
+operand2_reg/clk
+operand1_reg/clk

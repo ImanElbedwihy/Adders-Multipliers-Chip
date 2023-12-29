@@ -1,0 +1,19 @@
+set_user_match   -inverted   $svf_ref/FPM_final/B1/N_instance/A_exponent[7]   $svf_impl/FPM_final/B1/N_instance/A_exponent[7]
+set_user_match   -inverted   $svf_ref/FPM_final/B1/N_instance/A_exponent[6]   $svf_impl/FPM_final/B1/N_instance/A_exponent[6]
+set_user_match   -inverted   $svf_ref/FPM_final/B1/N_instance/A_exponent[5]   $svf_impl/FPM_final/B1/N_instance/A_exponent[5]
+set_user_match   -inverted   $svf_ref/FPM_final/B1/N_instance/A_exponent[4]   $svf_impl/FPM_final/B1/N_instance/A_exponent[4]
+set_user_match   -inverted   $svf_ref/FPM_final/B1/N_instance/A_exponent[3]   $svf_impl/FPM_final/B1/N_instance/A_exponent[3]
+set_user_match   -inverted   $svf_ref/FPM_final/B1/N_instance/A_exponent[2]   $svf_impl/FPM_final/B1/N_instance/A_exponent[2]
+set_user_match   -inverted   $svf_ref/FPM_final/B1/N_instance/A_exponent[1]   $svf_impl/FPM_final/B1/N_instance/A_exponent[1]
+set_user_match   -inverted   $svf_ref/FPM_final/B1/N_instance/A_exponent[0]   $svf_impl/FPM_final/B1/N_instance/A_exponent[0]
+set_user_match   -inverted   $svf_ref/FPM_final/B1/N_instance/A_mantissa[0]   $svf_impl/FPM_final/B1/N_instance/A_mantissa[0]
+set_user_match   -inverted   $svf_ref/FPM_final/B1/N_instance/A_mantissa[2]   $svf_impl/FPM_final/B1/N_instance/A_mantissa[2]
+set_user_match   -inverted   $svf_ref/FPM_final/B1/N_instance/A_mantissa[1]   $svf_impl/FPM_final/B1/N_instance/A_mantissa[1]
+set_user_match   -inverted   $svf_ref/FPM_final/operand1_reg/rst   $svf_impl/FPM_final/operand1_reg/rst
+set_user_match   -inverted   $svf_ref/FPM_final/operand2_reg/rst   $svf_impl/FPM_final/operand2_reg/rst
+set_user_match   -inverted   $svf_ref/FPM_final/output_reg/rst   $svf_impl/FPM_final/output_reg/rst
+guide_constraints -body { operand2_reg } -equivalent { operand2_reg/rst  ~ operand2_reg/IN0 }
+guide_constraints -body { operand1_reg } -equivalent { operand1_reg/rst  ~ operand1_reg/IN0 }
+
+#-------------------------------------------------------------------
+

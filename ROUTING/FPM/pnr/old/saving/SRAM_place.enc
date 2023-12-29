@@ -1,0 +1,8 @@
+################################################
+#                                              #
+# Silicon Perspective, A Cadence Company       #
+# FirstEncounter Design Restore script         #
+#    for design session: ./saving/SRAM_place.enc                     
+#                                              #
+################################################
+restoreDesign ./saving/SRAM_place.enc.dat mips

@@ -1,0 +1,8 @@
+set_user_match   -inverted   $svf_ref/FPA_final/operand1_reg/rst   $svf_impl/FPA_final/operand1_reg/rst
+set_user_match   -inverted   $svf_ref/FPA_final/operand2_reg/rst   $svf_impl/FPA_final/operand2_reg/rst
+set_user_match   -inverted   $svf_ref/FPA_final/output_reg/rst   $svf_impl/FPA_final/output_reg/rst
+guide_constraints -body { operand2_reg } -equivalent { operand2_reg/rst  ~ operand2_reg/IN0 }
+guide_constraints -body { operand1_reg } -equivalent { operand1_reg/rst  ~ operand1_reg/IN0 }
+
+#-------------------------------------------------------------------
+

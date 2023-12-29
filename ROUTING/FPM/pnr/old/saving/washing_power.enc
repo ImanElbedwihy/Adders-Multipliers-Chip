@@ -1,0 +1,8 @@
+################################################
+#                                              #
+# Silicon Perspective, A Cadence Company       #
+# FirstEncounter Design Restore script         #
+#    for design session: ./saving/washing_power.enc                     
+#                                              #
+################################################
+restoreDesign ./saving/washing_power.enc.dat mips
