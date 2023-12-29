@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : FPA_final
+Version: U-2022.12-SP7
+Date   : Thu Dec 28 23:44:04 2023
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/user50/Downloads/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+Number of ports:                         1119
+Number of nets:                          3173
+Number of cells:                         1962
+Number of combinational cells:           1839
+Number of sequential cells:                96
+Number of macros/black boxes:               0
+Number of buf/inv:                        446
+Number of references:                       4
+
+Combinational area:               2526.468013
+Buf/Inv area:                      248.976001
+Noncombinational area:             434.111984
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  2960.579997
+Total area:                2960.579997
+
+1

@@ -1,0 +1,22 @@
+Report Instance Areas: 
+-----+--------------------+--------------------+-----+---------
+     |Instance            |Module              |Cells|Cell Area
+-----+--------------------+--------------------+-----+---------
+1    |top                 |                    |   51|       81
+2    |  loop_7_CBA_4bits_i|CBA_4bits__0_7      |    6|       10
+3    |    RCA             |four_bit_adder__0_6 |    0|        0
+4    |  loop_0_CBA_4bits_i|CBA_4bits__0_13     |    6|       10
+5    |    RCA             |four_bit_adder__0_12|    0|        0
+6    |  loop_1_CBA_4bits_i|CBA_4bits__0_19     |    6|       10
+7    |    RCA             |four_bit_adder__0_18|    0|        0
+8    |  loop_2_CBA_4bits_i|CBA_4bits__0_25     |    6|       10
+9    |    RCA             |four_bit_adder__0_24|    0|        0
+10   |  loop_3_CBA_4bits_i|CBA_4bits__0_31     |    6|       10
+11   |    RCA             |four_bit_adder__0_30|    0|        0
+12   |  loop_4_CBA_4bits_i|CBA_4bits__0_37     |    6|       10
+13   |    RCA             |four_bit_adder__0_36|    0|        0
+14   |  loop_5_CBA_4bits_i|CBA_4bits__0_43     |    6|       10
+15   |    RCA             |four_bit_adder__0_42|    0|        0
+16   |  loop_6_CBA_4bits_i|CBA_4bits           |    6|       10
+17   |    RCA             |four_bit_adder      |    0|        0
+-----+--------------------+--------------------+-----+---------

@@ -19,8 +19,8 @@ module WTM8(A, B, product);
                     end
     endgenerate
 
-    wire s1 [9:0];
-    wire c1 [7:0];
+    wire  [9:0]s1;
+    wire  [7:0]c1;
     
     assign s1[0]=p[0][0];
     half_adder h0(p[0][1],p[1][0],s1[1],c1[0]);
@@ -39,10 +39,10 @@ module WTM8(A, B, product);
   
 
 
- wire s2 [9:0];
-    wire c2 [7:0];
+ wire[9:0] s2 ;
+    wire [7:0]c2 ;
     
-  assign  s1[0]=p[3][0];
+  assign  s2[0]=p[3][0];
     half_adder h2(p[3][1],p[4][0],s2[1],c2[0]);
 
 
@@ -58,8 +58,8 @@ module WTM8(A, B, product);
  assign   s2[9]=p[5][7];
 
 
-wire s3 [12:0];
-wire c3 [7:0];
+wire[12:0] s3 ;
+wire [7:0]c3 ;
 assign s3[0]=s1[0];
  assign s3[1]=s1[1];
 
@@ -81,8 +81,8 @@ assign s3[12]=s2[9];
 
 
   
-wire s4 [12:0];
-wire c4 [9:0];
+wire [12:0]s4 ;
+wire[9:0] c4 ;
 
 
 assign s4[0]=s3[0];
@@ -103,8 +103,8 @@ assign s4[2]=s3[2];
     half_adder h8( s3[12],c2[7],s4[12],c4[9]);
    
 
-   wire s5 [10:0];
-wire c5 [7:0];
+   wire  [10:0]s5;
+wire [7:0]c5 ;
 
   assign s5[0]=c4[0];
   assign s5[1]=c4[1];
@@ -119,8 +119,8 @@ wire c5 [7:0];
   full_adder F31 (p[6][7],p[7][6],c4[9],s5[9],c5[7]);
   assign  s5[10]=p[7][7];
 
-   wire s6 [14:0];
-   wire c6 [10:0];
+   wire  [14:0]s6;
+   wire[10:0] c6 ;
 
 assign  s6[0]=s4[0];
 assign  s6[1]=s4[1];
@@ -129,8 +129,9 @@ assign  s6[3]=s4[3];
     half_adder h10(s4[4],s5[0],s6[4],c6[0]);
     half_adder h11(s4[5],s5[1],s6[5],c6[1]);
     half_adder h12(s4[6],s5[2],s6[6],c6[2]);
-  full_adder F32 (s4[7],s5[3],c5[0],s6[7],c6[3]);
 
+    
+  full_adder F32 (s4[7],s5[3],c5[0],s6[7],c6[3]);
   full_adder F33 (s4[8],s5[4],c5[1],s6[8],c6[4]);
   full_adder F34 (s4[9],s5[5],c5[2],s6[9],c6[5]);
   full_adder F35 (s4[10],s5[6],c5[3],s6[10],c6[6]);
@@ -145,27 +146,26 @@ assign  s6[3]=s4[3];
   assign   product[1]=s6[1];
   assign   product[2]=s6[2];
   assign   product[3]=s6[3];
+  assign   product[4]=s6[4];
 
 
-wire c7[10:0];
+wire[10:0] c7;
 
-   half_adder h15(s6[4],c6[0],product[4],c7[0]);
-  full_adder F38 (s6[5],c6[1],c7[0],product[5],c7[1]);
-  full_adder F39 (s6[6],c6[2],c7[1],product[6],c7[2]);
-  full_adder F40 (s6[7],c6[3],c7[2],product[7],c7[3]);
-  full_adder F41 (s6[8],c6[4],c7[3],product[8],c7[4]);
-  full_adder F42 (s6[9],c6[5],c7[4],product[9],c7[5]);
-  full_adder F43 (s6[10],c6[6],c7[5],product[10],c7[6]);
-  full_adder F44 (s6[11],c6[7],c7[6],product[11],c7[7]);
-  full_adder F45 (s6[12],c6[8],c7[7],product[12],c7[8]);
-  full_adder F46 (s6[13],c6[9],c7[8],product[13],c7[9]);
-  full_adder F47 (s6[14],c6[10],c7[9],product[14],c7[10]);
+   half_adder h15(s6[5],c6[0],product[5],c7[0]);
+  full_adder F38 (s6[6],c6[1],c7[0],product[6],c7[1]);
+  full_adder F39 (s6[7],c6[2],c7[1],product[7],c7[2]);
+  full_adder F40 (s6[8],c6[3],c7[2],product[8],c7[3]);
+
+  full_adder F41 (s6[9],c6[4],c7[3],product[9],c7[4]);
+  full_adder F42 (s6[10],c6[5],c7[4],product[10],c7[5]);
+  full_adder F43 (s6[11],c6[6],c7[5],product[11],c7[6]);
+  full_adder F44 (s6[12],c6[7],c7[6],product[12],c7[7]);
+  full_adder F45 (s6[13],c6[8],c7[7],product[13],c7[8]);
+  full_adder F46 (s6[14],c6[9],c7[8],product[14],c7[9]);
+
+
+  half_adder h16(c7[9],c6[10],product[15],carry);
 
 
  assign product[15]=c7[10];
-
-
-
-
-
 endmodule

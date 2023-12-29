@@ -1,0 +1,92 @@
+*----------------------------------------------------------------------------------------
+*	First Encounter 08.10-s273_1 (32bit) 06/16/2009 02:26 (Linux 2.6)
+*	
+*
+* 	Date & Time:	2013-Oct-10 05:14:52 (2013-Oct-10 03:14:52 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: mips
+*
+*	Liberty Libraries used: 
+*	        /Back_End_Flow/SoC_Encounter_UMC130_files/MaximumTimingLibrary/fsc0h_d_generic_core_ss1p08v125c.lib
+*	        /Back_End_Flow/SoC_Encounter_UMC130_files/MaximumTimingLibrary/foc0h_a33_t33_generic_io_ss1p08v125c.lib
+*	        /Back_End_Flow/Documentation/SoC_Encounter/Typical_Timing_Libraries/fsc0h_d_generic_core_tt1p2v25c.lib
+*	        /Back_End_Flow/Documentation/SoC_Encounter/Typical_Timing_Libraries/foc0h_a33_t33_generic_io_tt1p2v25c.lib
+*
+*	Power Domain used: 
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: N.A.
+*
+*       Clock Gates Enable Activity: N.A.
+*
+*       Primary Input Activity: 0.200000
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs 
+*
+*       report_power -outfile SRAM.pwr -leakage
+*
+-----------------------------------------------------------------------------------------
+
+
+Total Power 
+-----------------------------------------------------------------------------------------
+Total Leakage Power:       0.2933 
+-----------------------------------------------------------------------------------------
+
+
+Group                           Leakage       Percentage 
+                                Power         (%)        
+-----------------------------------------------------------------------------------------
+Sequential                       0.07792       26.57 
+Macro                                  0           0 
+IO                              0.001308      0.4461 
+Combinational                     0.2115       72.12 
+Clock (Combinational)            0.00253      0.8626 
+-----------------------------------------------------------------------------------------
+Total                             0.2933         100 
+-----------------------------------------------------------------------------------------
+
+
+Rail                  Voltage   Leakage       Percentage 
+                                Power         (%)        
+-----------------------------------------------------------------------------------------
+Default rail
+                         1.08     0.2932       99.99 
+
+
+Clock                           Leakage       Percentage 
+                                Power         (%)        
+-----------------------------------------------------------------------------------------
+clk                             0.002555      0.8713 
+-----------------------------------------------------------------------------------------
+Total (excluding duplicates)    0.002555      0.8713 
+-----------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+* 		Highest Average Power: mips_core/datamem/FE_PHC3366_n838 (BUFNHD): 	 6.033e-05 
+* 		Highest Leakage Power: mips_core/datamem/FE_PHC3366_n838 (BUFNHD): 	 6.033e-05 
+* 		Total Cap: 	4.14023e-10 F
+* 		Total instances in design: 18526
+* 		Total instances in design with no power:    20
+*          Total instances in design with no activty:    20
+* 		Total Fillers and Decap:    20
+-----------------------------------------------------------------------------------------
+
+Total leakage power = 0.293258 mW
+ Cell usage statistics:  
+ Library foc0h_a33_t33_generic_io_ss1p08v125c , 34 cells ( 0.183724%) , 0.00130813 mW ( 0.446067%  ) 
+ Library fsc0h_d_generic_core_ss1p08v125c , 18472 cells ( 99.816276%) , 0.29195 mW ( 99.553933%  ) 
+ 

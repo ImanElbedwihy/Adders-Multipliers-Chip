@@ -1,0 +1,28 @@
+ 
+****************************************
+Report : cell
+Design : FPM_final
+Version: U-2022.12-SP7
+Date   : Thu Dec 28 23:36:34 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+B1                        FPM                             3851.148008
+                                                                    h
+operand1_reg              Registers_0                     181.677995
+                                                                    h, n
+operand2_reg              Registers_2                     181.677995
+                                                                    h, n
+output_reg                Registers_1                     181.677995
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 4 cells                                             4396.181993
+1

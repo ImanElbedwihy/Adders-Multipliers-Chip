@@ -1,0 +1,6 @@
+clk
+clk_BC
+clk_BC_1
+output_reg/clk
+operand2_reg/clk
+operand1_reg/clk

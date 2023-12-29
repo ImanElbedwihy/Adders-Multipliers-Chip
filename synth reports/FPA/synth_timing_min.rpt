@@ -1,0 +1,508 @@
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	B1/U150/A2 B1/U150/ZN B1/U247/A2 B1/U247/ZN B1/U246/A B1/U246/ZN B1/N_instance/U583/A B1/N_instance/U583/ZN B1/N_instance/U569/A B1/N_instance/U569/Z B1/N_instance/U19/A B1/N_instance/U19/ZN B1/N_instance/U546/A B1/N_instance/U546/Z B1/N_instance/U117/A1 B1/N_instance/U117/ZN B1/N_instance/U116/A1 B1/N_instance/U116/ZN B1/N_instance/U608/A1 B1/N_instance/U608/ZN B1/U413/A1 B1/U413/ZN B1/U411/C1 B1/U411/ZN 
+Information: Timing loop detected. (OPT-150)
+	B1/U146/A2 B1/U146/ZN B1/U254/A1 B1/U254/ZN B1/U246/B2 B1/U246/ZN B1/N_instance/U583/A B1/N_instance/U583/ZN B1/N_instance/U569/A B1/N_instance/U569/Z B1/N_instance/U19/A B1/N_instance/U19/ZN B1/N_instance/U546/A B1/N_instance/U546/Z B1/N_instance/U117/A1 B1/N_instance/U117/ZN B1/N_instance/U116/A1 B1/N_instance/U116/ZN B1/N_instance/U608/A1 B1/N_instance/U608/ZN B1/U413/A1 B1/U413/ZN B1/U411/C1 B1/U411/ZN 
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'B1/U150'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'B1/U146'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'B1' and 'ZN' on cell 'B1/U85'
+         to break a timing loop. (OPT-314)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 10
+Design : FPA_final
+Version: U-2022.12-SP7
+Date   : Thu Dec 28 23:44:04 2023
+****************************************
+
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+Wire Load Model Mode: top
+
+  Startpoint: operand1_reg/out_reg[25]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: output_reg/out_reg[25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPA_final          5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  operand1_reg/out_reg[25]/CK (DFF_X1)                    0.00       0.00 r
+  operand1_reg/out_reg[25]/Q (DFF_X1)                     0.09       0.09 f
+  operand1_reg/out[25] (Registers_0)                      0.00       0.09 f
+  B1/A[25] (FPA)                                          0.00       0.09 f
+  B1/U300/Z (MUX2_X1)                                     0.07       0.17 f
+  B1/U299/ZN (INV_X1)                                     0.04       0.20 r
+  B1/U248/ZN (OAI21_X1)                                   0.03       0.24 f
+  B1/N_instance/A_exponent[2] (normalizer)                0.00       0.24 f
+  B1/N_instance/U582/ZN (INV_X1)                          0.03       0.26 r
+  B1/N_instance/U98/ZN (AOI222_X1)                        0.03       0.29 f
+  B1/N_instance/U96/ZN (NAND4_X1)                         0.03       0.32 r
+  B1/N_instance/U606/ZN (OR2_X1)                          0.03       0.35 r
+  B1/N_instance/O_exponent[2] (normalizer)                0.00       0.35 r
+  B1/Sum[25] (FPA)                                        0.00       0.35 r
+  output_reg/in[25] (Registers_1)                         0.00       0.35 r
+  output_reg/U33/ZN (AND2_X1)                             0.04       0.39 r
+  output_reg/out_reg[25]/D (DFF_X1)                       0.01       0.40 r
+  data arrival time                                                  0.40
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.35       0.35
+  output_reg/out_reg[25]/CK (DFF_X1)                      0.00       0.35 r
+  library hold time                                       0.01       0.36
+  data required time                                                 0.36
+  --------------------------------------------------------------------------
+  data required time                                                 0.36
+  data arrival time                                                 -0.40
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.04
+
+
+  Startpoint: operand1_reg/out_reg[24]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: output_reg/out_reg[24]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPA_final          5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  operand1_reg/out_reg[24]/CK (DFF_X1)                    0.00       0.00 r
+  operand1_reg/out_reg[24]/Q (DFF_X1)                     0.09       0.09 f
+  operand1_reg/out[24] (Registers_0)                      0.00       0.09 f
+  B1/A[24] (FPA)                                          0.00       0.09 f
+  B1/U294/Z (MUX2_X1)                                     0.08       0.17 f
+  B1/U274/ZN (INV_X1)                                     0.04       0.21 r
+  B1/U250/ZN (OAI21_X1)                                   0.03       0.24 f
+  B1/N_instance/A_exponent[1] (normalizer)                0.00       0.24 f
+  B1/N_instance/U581/ZN (INV_X1)                          0.03       0.26 r
+  B1/N_instance/U93/ZN (AOI222_X1)                        0.04       0.30 f
+  B1/N_instance/U92/ZN (NAND4_X1)                         0.03       0.32 r
+  B1/N_instance/U604/ZN (OR2_X1)                          0.03       0.36 r
+  B1/N_instance/O_exponent[1] (normalizer)                0.00       0.36 r
+  B1/Sum[24] (FPA)                                        0.00       0.36 r
+  output_reg/in[24] (Registers_1)                         0.00       0.36 r
+  output_reg/U32/ZN (AND2_X1)                             0.04       0.39 r
+  output_reg/out_reg[24]/D (DFF_X1)                       0.01       0.40 r
+  data arrival time                                                  0.40
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.35       0.35
+  output_reg/out_reg[24]/CK (DFF_X1)                      0.00       0.35 r
+  library hold time                                       0.01       0.36
+  data required time                                                 0.36
+  --------------------------------------------------------------------------
+  data required time                                                 0.36
+  data arrival time                                                 -0.40
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.05
+
+
+  Startpoint: operand1_reg/out_reg[27]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: output_reg/out_reg[27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPA_final          5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  operand1_reg/out_reg[27]/CK (DFF_X1)                    0.00       0.00 r
+  operand1_reg/out_reg[27]/Q (DFF_X1)                     0.09       0.09 f
+  operand1_reg/out[27] (Registers_0)                      0.00       0.09 f
+  B1/A[27] (FPA)                                          0.00       0.09 f
+  B1/U284/Z (MUX2_X1)                                     0.08       0.17 f
+  B1/U283/ZN (INV_X1)                                     0.04       0.21 r
+  B1/U244/ZN (OAI21_X1)                                   0.03       0.24 f
+  B1/N_instance/A_exponent[4] (normalizer)                0.00       0.24 f
+  B1/N_instance/U580/ZN (INV_X1)                          0.02       0.26 r
+  B1/N_instance/U574/Z (BUF_X1)                           0.03       0.29 r
+  B1/N_instance/U107/ZN (AOI222_X1)                       0.03       0.33 f
+  B1/N_instance/U104/ZN (NAND4_X1)                        0.03       0.35 r
+  B1/N_instance/U611/ZN (OR2_X1)                          0.03       0.39 r
+  B1/N_instance/O_exponent[4] (normalizer)                0.00       0.39 r
+  B1/Sum[27] (FPA)                                        0.00       0.39 r
+  output_reg/in[27] (Registers_1)                         0.00       0.39 r
+  output_reg/U35/ZN (AND2_X1)                             0.04       0.43 r
+  output_reg/out_reg[27]/D (DFF_X1)                       0.01       0.43 r
+  data arrival time                                                  0.43
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.35       0.35
+  output_reg/out_reg[27]/CK (DFF_X1)                      0.00       0.35 r
+  library hold time                                       0.01       0.36
+  data required time                                                 0.36
+  --------------------------------------------------------------------------
+  data required time                                                 0.36
+  data arrival time                                                 -0.43
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.08
+
+
+  Startpoint: operand1_reg/out_reg[31]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: output_reg/out_reg[21]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPA_final          5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  operand1_reg/out_reg[31]/CK (DFF_X1)                    0.00       0.00 r
+  operand1_reg/out_reg[31]/Q (DFF_X1)                     0.08       0.08 f
+  operand1_reg/out[31] (Registers_0)                      0.00       0.08 f
+  B1/A[31] (FPA)                                          0.00       0.08 f
+  B1/U6/ZN (AND3_X1)                                      0.04       0.12 f
+  B1/U139/Z (BUF_X1)                                      0.06       0.18 f
+  B1/U370/ZN (AOI222_X1)                                  0.05       0.23 r
+  B1/U369/ZN (AND2_X1)                                    0.05       0.28 r
+  B1/U363/ZN (OAI22_X1)                                   0.04       0.32 f
+  B1/N_instance/A_mantissa[16] (normalizer)               0.00       0.32 f
+  B1/N_instance/U348/ZN (AOI222_X1)                       0.04       0.37 r
+  B1/N_instance/U591/ZN (NAND4_X1)                        0.04       0.40 f
+  B1/N_instance/O_mantissa[21] (normalizer)               0.00       0.40 f
+  B1/Sum[21] (FPA)                                        0.00       0.40 f
+  output_reg/in[21] (Registers_1)                         0.00       0.40 f
+  output_reg/U13/ZN (AND2_X1)                             0.04       0.44 f
+  output_reg/out_reg[21]/D (DFF_X1)                       0.01       0.45 f
+  data arrival time                                                  0.45
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.35       0.35
+  output_reg/out_reg[21]/CK (DFF_X1)                      0.00       0.35 r
+  library hold time                                       0.01       0.36
+  data required time                                                 0.36
+  --------------------------------------------------------------------------
+  data required time                                                 0.36
+  data arrival time                                                 -0.45
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.09
+
+
+  Startpoint: operand1_reg/out_reg[31]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: output_reg/out_reg[4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPA_final          5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  operand1_reg/out_reg[31]/CK (DFF_X1)                    0.00       0.00 r
+  operand1_reg/out_reg[31]/Q (DFF_X1)                     0.08       0.08 f
+  operand1_reg/out[31] (Registers_0)                      0.00       0.08 f
+  B1/A[31] (FPA)                                          0.00       0.08 f
+  B1/U6/ZN (AND3_X1)                                      0.04       0.12 f
+  B1/U140/Z (BUF_X1)                                      0.06       0.18 f
+  B1/U356/ZN (AOI222_X1)                                  0.07       0.26 r
+  B1/U355/ZN (AND2_X1)                                    0.05       0.31 r
+  B1/U350/ZN (OAI22_X1)                                   0.04       0.34 f
+  B1/N_instance/A_mantissa[19] (normalizer)               0.00       0.34 f
+  B1/N_instance/U276/ZN (NAND2_X1)                        0.04       0.38 r
+  B1/N_instance/U589/ZN (OAI221_X1)                       0.04       0.42 f
+  B1/N_instance/O_mantissa[4] (normalizer)                0.00       0.42 f
+  B1/Sum[4] (FPA)                                         0.00       0.42 f
+  output_reg/in[4] (Registers_1)                          0.00       0.42 f
+  output_reg/U11/ZN (AND2_X1)                             0.03       0.45 f
+  output_reg/out_reg[4]/D (DFF_X1)                        0.01       0.46 f
+  data arrival time                                                  0.46
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.35       0.35
+  output_reg/out_reg[4]/CK (DFF_X1)                       0.00       0.35 r
+  library hold time                                       0.01       0.36
+  data required time                                                 0.36
+  --------------------------------------------------------------------------
+  data required time                                                 0.36
+  data arrival time                                                 -0.46
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+  Startpoint: operand1_reg/out_reg[31]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: output_reg/out_reg[19]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPA_final          5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  operand1_reg/out_reg[31]/CK (DFF_X1)                    0.00       0.00 r
+  operand1_reg/out_reg[31]/Q (DFF_X1)                     0.08       0.08 f
+  operand1_reg/out[31] (Registers_0)                      0.00       0.08 f
+  B1/A[31] (FPA)                                          0.00       0.08 f
+  B1/U6/ZN (AND3_X1)                                      0.04       0.12 f
+  B1/U139/Z (BUF_X1)                                      0.06       0.18 f
+  B1/U374/ZN (AOI222_X1)                                  0.05       0.23 r
+  B1/U373/ZN (AND2_X1)                                    0.05       0.28 r
+  B1/U368/ZN (OAI22_X1)                                   0.04       0.33 f
+  B1/N_instance/A_mantissa[15] (normalizer)               0.00       0.33 f
+  B1/N_instance/U561/ZN (AOI221_X1)                       0.05       0.38 r
+  B1/N_instance/U600/ZN (NAND4_X1)                        0.04       0.42 f
+  B1/N_instance/O_mantissa[19] (normalizer)               0.00       0.42 f
+  B1/Sum[19] (FPA)                                        0.00       0.42 f
+  output_reg/in[19] (Registers_1)                         0.00       0.42 f
+  output_reg/U22/ZN (AND2_X1)                             0.04       0.46 f
+  output_reg/out_reg[19]/D (DFF_X1)                       0.01       0.46 f
+  data arrival time                                                  0.46
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.35       0.35
+  output_reg/out_reg[19]/CK (DFF_X1)                      0.00       0.35 r
+  library hold time                                       0.01       0.36
+  data required time                                                 0.36
+  --------------------------------------------------------------------------
+  data required time                                                 0.36
+  data arrival time                                                 -0.46
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+  Startpoint: operand2_reg/out_reg[28]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: output_reg/out_reg[28]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPA_final          5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  operand2_reg/out_reg[28]/CK (DFF_X1)                    0.00       0.00 r
+  operand2_reg/out_reg[28]/Q (DFF_X1)                     0.10       0.10 r
+  operand2_reg/out[28] (Registers_2)                      0.00       0.10 r
+  B1/B[28] (FPA)                                          0.00       0.10 r
+  B1/U292/Z (MUX2_X1)                                     0.08       0.17 r
+  B1/U243/ZN (INV_X1)                                     0.03       0.20 f
+  B1/U241/ZN (OAI21_X1)                                   0.03       0.23 r
+  B1/N_instance/A_exponent[5] (normalizer)                0.00       0.23 r
+  B1/N_instance/U578/ZN (INV_X1)                          0.02       0.26 f
+  B1/N_instance/U541/Z (BUF_X1)                           0.03       0.29 f
+  B1/N_instance/U649/ZN (OAI21_X1)                        0.04       0.33 r
+  B1/N_instance/U617/ZN (AOI222_X1)                       0.03       0.36 f
+  B1/N_instance/U124/ZN (NAND4_X1)                        0.03       0.39 r
+  B1/N_instance/U605/ZN (OR2_X1)                          0.03       0.42 r
+  B1/N_instance/O_exponent[5] (normalizer)                0.00       0.42 r
+  B1/Sum[28] (FPA)                                        0.00       0.42 r
+  output_reg/in[28] (Registers_1)                         0.00       0.42 r
+  output_reg/U36/ZN (AND2_X1)                             0.04       0.46 r
+  output_reg/out_reg[28]/D (DFF_X1)                       0.01       0.47 r
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.35       0.35
+  output_reg/out_reg[28]/CK (DFF_X1)                      0.00       0.35 r
+  library hold time                                       0.01       0.36
+  data required time                                                 0.36
+  --------------------------------------------------------------------------
+  data required time                                                 0.36
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+  Startpoint: operand2_reg/out_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: output_reg/out_reg[5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPA_final          5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  operand2_reg/out_reg[0]/CK (DFF_X1)                     0.00       0.00 r
+  operand2_reg/out_reg[0]/Q (DFF_X1)                      0.08       0.08 r
+  operand2_reg/out[0] (Registers_2)                       0.00       0.08 r
+  B1/B[0] (FPA)                                           0.00       0.08 r
+  B1/U232/Z (MUX2_X1)                                     0.07       0.14 r
+  B1/add_67/B[0] (FPA_DW01_add_2)                         0.00       0.14 r
+  B1/add_67/U1/Z (XOR2_X1)                                0.04       0.19 f
+  B1/add_67/SUM[0] (FPA_DW01_add_2)                       0.00       0.19 f
+  B1/U400/ZN (AOI22_X1)                                   0.04       0.23 r
+  B1/U398/ZN (NAND2_X1)                                   0.03       0.26 f
+  B1/U397/ZN (INV_X1)                                     0.03       0.28 r
+  B1/U14/ZN (OAI22_X2)                                    0.05       0.34 f
+  B1/N_instance/A_mantissa[0] (normalizer)                0.00       0.34 f
+  B1/N_instance/U336/ZN (AOI222_X1)                       0.05       0.39 r
+  B1/N_instance/U596/ZN (OAI211_X1)                       0.04       0.43 f
+  B1/N_instance/O_mantissa[5] (normalizer)                0.00       0.43 f
+  B1/Sum[5] (FPA)                                         0.00       0.43 f
+  output_reg/in[5] (Registers_1)                          0.00       0.43 f
+  output_reg/U18/ZN (AND2_X1)                             0.03       0.46 f
+  output_reg/out_reg[5]/D (DFF_X1)                        0.01       0.47 f
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.35       0.35
+  output_reg/out_reg[5]/CK (DFF_X1)                       0.00       0.35 r
+  library hold time                                       0.01       0.36
+  data required time                                                 0.36
+  --------------------------------------------------------------------------
+  data required time                                                 0.36
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+  Startpoint: operand2_reg/out_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: output_reg/out_reg[13]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPA_final          5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  operand2_reg/out_reg[0]/CK (DFF_X1)                     0.00       0.00 r
+  operand2_reg/out_reg[0]/Q (DFF_X1)                      0.08       0.08 r
+  operand2_reg/out[0] (Registers_2)                       0.00       0.08 r
+  B1/B[0] (FPA)                                           0.00       0.08 r
+  B1/U232/Z (MUX2_X1)                                     0.07       0.14 r
+  B1/add_67/B[0] (FPA_DW01_add_2)                         0.00       0.14 r
+  B1/add_67/U1/Z (XOR2_X1)                                0.04       0.19 f
+  B1/add_67/SUM[0] (FPA_DW01_add_2)                       0.00       0.19 f
+  B1/U400/ZN (AOI22_X1)                                   0.04       0.23 r
+  B1/U398/ZN (NAND2_X1)                                   0.03       0.26 f
+  B1/U397/ZN (INV_X1)                                     0.03       0.28 r
+  B1/U14/ZN (OAI22_X2)                                    0.05       0.34 f
+  B1/N_instance/A_mantissa[0] (normalizer)                0.00       0.34 f
+  B1/N_instance/U298/ZN (AOI222_X1)                       0.05       0.39 r
+  B1/N_instance/U585/ZN (NAND4_X1)                        0.04       0.43 f
+  B1/N_instance/O_mantissa[13] (normalizer)               0.00       0.43 f
+  B1/Sum[13] (FPA)                                        0.00       0.43 f
+  output_reg/in[13] (Registers_1)                         0.00       0.43 f
+  output_reg/U7/ZN (AND2_X1)                              0.04       0.46 f
+  output_reg/out_reg[13]/D (DFF_X1)                       0.01       0.47 f
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.35       0.35
+  output_reg/out_reg[13]/CK (DFF_X1)                      0.00       0.35 r
+  library hold time                                       0.01       0.36
+  data required time                                                 0.36
+  --------------------------------------------------------------------------
+  data required time                                                 0.36
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.12
+
+
+  Startpoint: operand2_reg/out_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: output_reg/out_reg[14]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPA_final          5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  operand2_reg/out_reg[0]/CK (DFF_X1)                     0.00       0.00 r
+  operand2_reg/out_reg[0]/Q (DFF_X1)                      0.08       0.08 r
+  operand2_reg/out[0] (Registers_2)                       0.00       0.08 r
+  B1/B[0] (FPA)                                           0.00       0.08 r
+  B1/U232/Z (MUX2_X1)                                     0.07       0.14 r
+  B1/add_67/B[0] (FPA_DW01_add_2)                         0.00       0.14 r
+  B1/add_67/U1/Z (XOR2_X1)                                0.04       0.19 f
+  B1/add_67/SUM[0] (FPA_DW01_add_2)                       0.00       0.19 f
+  B1/U400/ZN (AOI22_X1)                                   0.04       0.23 r
+  B1/U398/ZN (NAND2_X1)                                   0.03       0.26 f
+  B1/U397/ZN (INV_X1)                                     0.03       0.28 r
+  B1/U14/ZN (OAI22_X2)                                    0.05       0.34 f
+  B1/N_instance/A_mantissa[0] (normalizer)                0.00       0.34 f
+  B1/N_instance/U293/ZN (AOI222_X1)                       0.05       0.39 r
+  B1/N_instance/U586/ZN (NAND4_X1)                        0.04       0.43 f
+  B1/N_instance/O_mantissa[14] (normalizer)               0.00       0.43 f
+  B1/Sum[14] (FPA)                                        0.00       0.43 f
+  output_reg/in[14] (Registers_1)                         0.00       0.43 f
+  output_reg/U8/ZN (AND2_X1)                              0.04       0.46 f
+  output_reg/out_reg[14]/D (DFF_X1)                       0.01       0.47 f
+  data arrival time                                                  0.47
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.35       0.35
+  output_reg/out_reg[14]/CK (DFF_X1)                      0.00       0.35 r
+  library hold time                                       0.01       0.36
+  data required time                                                 0.36
+  --------------------------------------------------------------------------
+  data required time                                                 0.36
+  data arrival time                                                 -0.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.12
+
+
+1
