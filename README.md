@@ -81,10 +81,10 @@ This part summarizes the synthesis, placement, routing, post-routing simulation,
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/EmanElbedwihy">
-            <img src="https://avatars.githubusercontent.com/u/120182209?v=4" width="100;" alt="EmanElbedwihy"/>
+        <a href="https://github.com/ImanElbedwihy">
+            <img src="https://avatars.githubusercontent.com/u/120182209?v=4" width="100;" alt="ImanElbedwihy"/>
             <br />
-            <sub><b>Eman</b></sub>
+            <sub><b>Iman</b></sub>
         </a>
     </td>
         <td align="center">
